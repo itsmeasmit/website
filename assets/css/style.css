@@ -157,7 +157,13 @@ a:hover {
 }
 
 .line-mf {
-  width: 40px;
+  width: 100px;
+  height: 5px;
+  background-color: #1a385b;
+  margin: 0 auto;
+}
+.line-mf1 {
+  width: 200px;
   height: 5px;
   background-color: #1a385b;
   margin: 0 auto;
