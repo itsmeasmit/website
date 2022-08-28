@@ -43,6 +43,7 @@
     </div>
   </header><!-- End Header -->
 
+
   <!-- ======= Hero Section ======= -->
   <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.png)">
     <div class="overlay-itro"></div>
@@ -117,18 +118,13 @@
                     </div>
                     <h6>Hello, I'm Angel Acharya</h6>
                     <p class="lead">
-                      An engineering student at Lumbini Engineering College.  eager to contribute to team success through hard work, attention to detail and excellent organizational skills. 
+                      An engineering student at Lumbini Engineering College, eager to contribute to team success through hard work, attention to detail and excellent organizational skills. 
                       Clear understanding of web development. Motivated to learn, grow and excel in IT industry.
                     </p>
                     <p class="lead">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                       Facere nesciunt adipisci quam officia! 
-                      Quam harum ratione repellat sit voluptatem cum modi quod aut, molestias voluptates rem neque, laudantium, tempore dolorum!
-                    </p>
-                    <p class="lead">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere nesciunt adipisci quam officia! 
-                      Quam harum ratione repellat sit voluptatem cum modi quod aut, molestias voluptates rem neque, laudantium, tempore dolorum!
-                    </p>
+                      I create, design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. 
+                      My passion is to design digital user experiences through the bold interface and meaningful interactions.
+                    </p>                    
                   </div>
                 </div>
               </div>
@@ -149,7 +145,7 @@
               </h3>
               <div class="line-mf"></div> <br>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                I provide the following services
               </p>
             </div>
           </div>
@@ -287,10 +283,8 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                        I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                       <br> Always available for freelance work if the right project comes along, Feel free to contact me!
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-geo-alt"></span> Siyari-4 Shivapur Rupandehi</li>
@@ -336,6 +330,36 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "105773015311631");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v14.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
